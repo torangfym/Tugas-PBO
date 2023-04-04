@@ -16,7 +16,7 @@ class Motor:
         print("Warna:", self.warna)
 
 # membuat objek motor dari kelas Motor
-mobil1 = Motor("Honda", "Scoopy", "Putih")
+motor = Motor("Honda", "Scoopy", "Putih")
 
 # memanggil metode info_motor pada objek motor
-mobil1.info_motor()
+motor.info_motor()
